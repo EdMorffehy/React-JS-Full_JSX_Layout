@@ -1,0 +1,128 @@
+.services {
+  background-color: rgb(178, 74, 80);
+  z-index: 212;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../images/servicesBG1.png") ;
+}
+
+.bg1 {
+  background-image: url("../../images/servicesBG1.png") ;
+  width: 100%;
+  z-index: 213;
+  background-repeat: repeat-y;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top:150px;
+}
+
+.servicesH1 {
+  font-size: 60px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 0.967;
+  z-index: 247;
+  position: relative;
+}
+
+.title {
+  font-size: 20px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2.9;
+}
+
+.title span {
+  color: #ea767b;
+}
+
+.bigText {
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(255, 204, 207);
+  line-height: 1.714;
+}
+
+/*Blocks*/
+.mainBlock {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: -webkit-center;
+}
+
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background-color: rgb(200, 83, 90);
+  opacity: 0.7;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 210px;
+}
+
+.block h1 {
+  font-size: 30px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 1.933;
+  text-align: center;
+}
+
+.block p {
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(254, 254, 254);
+  line-height: 1.429;
+  text-align: center;
+}
+
+.imgBlock {
+  border: 5px solid white;
+  width: 130px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  height: 130px;
+}
+
+.imgBlock img {
+  position: relative;
+  top: 5px;
+}
+
+
+/*@media*/
+@media all and (max-width: 767px) {
+  .text h1 {
+    font-size: 35px;
+    margin:10px 20px;
+    padding-top:100px;
+  }
+  .title {
+    font-size: 16px;
+    margin: 20px;
+    padding-left:20px;
+    padding-right: 20px;
+  }
+  .bigText{
+    padding-left:30px;
+    padding-right: 30px;
+  }
+  .card {
+    margin-top: 20px;
+  }
+}
+
+/*end @media*/

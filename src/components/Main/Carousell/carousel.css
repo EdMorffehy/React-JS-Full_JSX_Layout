@@ -1,0 +1,32 @@
+.rec.rec-arrow {
+    border: none!important;
+    border-radius: 0!important;
+    background: none!important;
+    outline: none!important;
+    box-shadow: 0 0 0px 0px !important;
+    color:#D6C6B0!important;
+    font-size: 40px!important;
+}
+/* round buttons on hover */
+.rec.rec-arrow:hover {
+    border:none!important;
+    border-radius: 0px!important;
+    background: none!important;
+    color:black!important;
+    font-size: 40px!important;
+}
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+
+}
+/* disable default outline on focused items */
+/* add custom outline on focused items */
+.rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 0px 0px !important;
+}
+.rec-dot_active{
+    background-color:#23C8D6!important;
+    border-color:#23C8D6!important ;
+    box-shadow: 0 0 1px 3px #23C8D6!important;
+}

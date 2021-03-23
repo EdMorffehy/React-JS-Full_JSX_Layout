@@ -1,0 +1,247 @@
+.contacts {
+  background-color: rgb(117, 180, 170);
+  z-index: 212;
+  width: 100%;
+
+  background-image: url("../../images/contactBG1.png");
+  height: 100vh;
+}
+
+.bg1 {
+  background-image: url("../../images/contactBG1.png");
+  width: 100%;
+  z-index: 213;
+}
+
+.text {
+  text-align: center;
+  padding-top:150px;
+}
+.title {
+  font-size: 60px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 0.967;
+}
+.text p {
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(230, 209, 227);
+  line-height: 1.714;
+}
+.blockContacts{
+  display:flex;
+  justify-content: center;
+  padding-top: 60px;
+  flex-wrap: wrap;
+
+}
+
+/*adress*/
+.adress{
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+}
+
+.allContacts{
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(208, 239, 234);
+  line-height: 1.313;
+  align-items: center;
+  margin-top:40px;
+}
+
+.allContacts div{
+  margin:3px;
+  margin-left:0px!important;
+}
+.allContacts a{
+  color:white;
+  font-size:16.5px;
+}
+.skype{
+  color:white;
+  font-size:16.5px;
+}
+.name{
+  font-size: 30px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  text-align: left;
+}
+
+.tit{
+  font-size: 20px;
+  font-family: "Lato";
+  color: rgb(192, 223, 218);
+  font-weight: bold;
+  line-height: 0.84;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sevenoaks{
+  display: flex;
+  flex-direction: column;
+}
+
+.sevenoaks span{
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 1.313;
+}
+
+
+/*adress end*/
+
+/*form */
+.mainForm{
+  margin-left:20px;
+  justify-content: center;
+}
+
+.SendQuiry {
+  font-size: 30px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.mainForm input{
+  border-radius: 4px;
+  background-color: rgb(104, 160, 151);
+  width: 240px;
+  height: 40px;
+  outline:0px;
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(130, 200, 189);
+  line-height: 1.313;
+  padding-left:10px;
+}
+
+.inp{
+  margin-left:10px;
+}
+
+.mainForm textarea {
+  border-radius: 4px;
+  background-color: rgb(104, 160, 151);
+  width: 497px;
+  height: 130px;
+  padding:10px;
+  margin-top: 15px;
+  outline:0px;
+}
+
+.mainForm button{
+  border-radius: 4px;
+  background-color: rgb(223, 92, 100);
+  box-shadow: inset 0px -4px 0px 0px rgba(178, 74, 80, 0.5);
+  width: 260px;
+  height: 50px;
+  font-size: 26px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 0.808;
+}
+
+.btn{
+  margin-top:15px;
+  text-align: center;
+}
+
+.mainForm input:focus{
+  background-color: white;
+}
+.mainForm textarea:focus{
+  background-color: white;
+}
+  /*form end*/
+
+/*icons foot*/
+.ic{
+  text-align: center;
+  padding-top:100px;
+  padding-bottom: 50px;
+}
+
+.ic span{
+  width: 60px;
+  height: 61px;
+  border-radius: 50%;
+  background-color: rgb(130, 199, 188);
+  color:white;
+  padding: 5px 10px;
+  margin:10px;
+}
+
+.ic span a{
+  color:white;
+}
+
+.ic span:hover{
+  background-color: #68A097;
+}
+
+/*icons end*/
+
+/*map*/
+.map{
+  padding-top:55px;
+}
+/**/
+
+/*@media*/
+@media all and (max-width: 767px) {
+  .title{
+    font-size: 35px;
+    margin:10px 20px;
+    padding-top:100px;
+  }
+  .text p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+  }
+  .mainForm form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .inp{
+    margin-top:10px;
+    margin-left:0px;
+  }
+  .mainForm form textarea{
+    width: 233px;
+    height: 100px;
+  }
+  .mainForm button{
+    width: 160px;
+    height: 35px;
+    font-size: 18px;
+  }
+  .ic{
+    padding-top:50px;
+    padding-bottom: 50px;
+  }
+  .allContacts{
+    margin-top:20px;
+  }
+  .SendQuiry{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+/*@media end*/

@@ -1,0 +1,272 @@
+.home{
+    background-color: rgb(44, 62, 80);
+    z-index: 260;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../images/homeBG1.png");
+    background-image: url("../../images/homeBG2.png");
+}
+
+.bg2 {
+    background-image: url("../../images/homeBG1.png");
+    background-image: url("../../images/homeBG2.png");
+    background-repeat: repeat-y;
+    width: 100%;
+    z-index: 262;
+}
+
+/*carousel*/
+.carouselll{
+   padding:300px 20px 150px 20px;
+
+}
+
+.carouselItem1{
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.885;
+    width: 640px;
+    height: 150px;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    padding:20px;
+}
+
+.carouselSpan1{
+    font-size: 48px;
+    font-family: "Lato";
+    color: rgb(116, 199, 213);
+    line-height: 0.967;
+    text-align: right;
+}
+
+.dd{
+    font-size:48px;
+}
+
+.carouselSpan2{
+    font-size: 115px;
+    font-family: "Lato";
+    color: #23C8D6;
+    line-height: 1;
+    z-index: 2;
+}
+
+.carouselItem2{
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.885;
+    width: 640px;
+    height: 150px;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    padding:20px;
+}
+.carouselSpan3{
+    font-size: 48px;
+    font-family: "Lato";
+    color: rgb(116, 199, 213);
+    line-height: 0.967;
+    text-align: right;
+}
+.tt{
+    font-size:48px;
+}
+.carouselSpan4{
+    font-size: 115px;
+    font-family: "Lato";
+    color: #23C8D6;
+    line-height: 1;
+    z-index: 2;
+}
+
+.carouselItem3{
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.885;
+    width: 640px;
+    height: 150px;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    padding:20px;
+}
+.carouselSpan5{
+    font-size: 48px;
+    font-family: "Lato";
+    color: rgb(116, 199, 213);
+    line-height: 0.967;
+    text-align: right;
+}
+.cc{
+    font-size:48px;
+}
+.carouselSpan6{
+    font-size: 115px;
+    font-family: "Lato";
+    color: #23C8D6;
+    line-height: 1;
+    z-index: 2;
+}
+
+/*carousel end*/
+
+/*@media*/
+
+@media all and (min-width: 536px) and (max-width:767px) {
+    .carouselItem1 {
+        width: 340px;
+        height: 120px;
+    }
+    .carouselSpan1{
+        font-size: 28px;
+
+    }
+    .dd{
+        font-size:28px;
+    }
+    .carouselSpan2{
+        font-size: 55px;
+    }
+}
+
+@media all and (min-width: 425px) and (max-width:535px) {
+    .carouselItem1{
+        width: 240px;
+        height: 100px;
+    }
+    .carouselSpan1{
+        font-size: 18px;
+
+    }
+    .dd{
+        font-size:18px;
+    }
+    .carouselSpan2{
+        font-size: 35px;
+    }
+}
+@media all and (min-width: 320px) and (max-width:424px) {
+    .carouselItem1{
+        width: 100px;
+        height: 60px;
+    }
+    .carouselSpan1{
+        font-size: 16px;
+
+    }
+    .dd{
+        font-size:16px;
+    }
+    .carouselSpan2{
+        font-size: 20px;
+    }
+}
+
+
+@media all and (min-width: 536px) and (max-width:767px) {
+    .carouselItem2 {
+        width: 340px;
+        height: 120px;
+    }
+    .carouselSpan3{
+        font-size: 28px;
+
+    }
+    .tt{
+        font-size:28px;
+    }
+    .carouselSpan4{
+        font-size: 55px;
+    }
+}
+
+@media all and (min-width: 425px) and (max-width:535px) {
+    .carouselItem2{
+        width: 240px;
+        height: 100px;
+    }
+    .carouselSpan3{
+        font-size: 18px;
+
+    }
+    .tt{
+        font-size:18px;
+    }
+    .carouselSpan4{
+        font-size: 35px;
+    }
+}
+@media all and (min-width: 320px) and (max-width:424px) {
+    .carouselItem2{
+        width: 100px;
+        height: 60px;
+    }
+    .carouselSpan3{
+        font-size: 16px;
+
+    }
+    .tt{
+        font-size:16px;
+    }
+    .carouselSpan4{
+        font-size: 20px;
+    }
+}
+
+
+@media all and (min-width: 536px) and (max-width:767px) {
+    .carouselItem3 {
+        width: 340px;
+        height: 120px;
+    }
+    .carouselSpan5{
+        font-size: 28px;
+
+    }
+    .cc{
+        font-size:28px;
+    }
+    .carouselSpan6{
+        font-size: 55px;
+    }
+}
+
+@media all and (min-width: 425px) and (max-width:535px) {
+    .carouselItem3{
+        width: 240px;
+        height: 100px;
+    }
+    .carouselSpan5{
+        font-size: 18px;
+
+    }
+    .cc{
+        font-size:18px;
+    }
+    .carouselSpan6{
+        font-size: 35px;
+    }
+}
+@media all and (min-width: 320px) and (max-width:424px) {
+    .carouselItem3{
+        width: 100px;
+        height: 60px;
+    }
+    .carouselSpan5{
+        font-size: 16px;
+
+    }
+    .cc{
+        font-size:16px;
+    }
+    .carouselSpan6{
+        font-size: 20px;
+    }
+}
+/*@media end*/
+
+
+

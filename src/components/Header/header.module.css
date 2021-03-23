@@ -1,0 +1,51 @@
+.nav {
+    display: flex;
+    list-style-type:none;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 3.333;
+    font-family: "Lato";
+    padding-top: 20px;
+    border-radius:5px;
+    color:white;
+}
+.nav li{
+    border-radius: 5px;
+}
+.logonav {
+    text-decoration: none;
+}
+
+.header {
+    opacity: 0.549;
+    position: absolute;
+    z-index: 275;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+.acrostia p{
+    font-size: 50px;
+    font-family: "Damion";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    z-index: 280;
+}
+
+@media all  and (max-width: 767px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+        padding-top:20px;
+    }
+    .nav a{
+        padding:10px;
+        border-radius:5px;
+        line-height: 2.4;
+    }
+}
